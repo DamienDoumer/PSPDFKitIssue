@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v12.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -88,7 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PSPDFKitIssues\PSPDFKitIssues.csproj">
-      <Project>{89B34B47-1039-4708-A71C-9EAC308EA093}</Project>
+      <Project>{6CBE5559-0098-48F6-A2BE-BBC2AEF36A6D}</Project>
       <Name>PSPDFKitIssues</Name>
     </ProjectReference>
   </ItemGroup>

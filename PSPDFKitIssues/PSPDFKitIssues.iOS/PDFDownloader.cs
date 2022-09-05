@@ -1,4 +1,5 @@
 ﻿using Foundation;
+using PSPDFKitIssues.iOS;
 using PSPDFKitIssues.Services;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using UIKit;
 using Xamarin.Essentials;
+using Xamarin.Forms;
 
+[assembly: Dependency(typeof(PDFDownloader))]
 namespace PSPDFKitIssues.iOS
 {
     public class PDFDownloader : IPDFDownloader
