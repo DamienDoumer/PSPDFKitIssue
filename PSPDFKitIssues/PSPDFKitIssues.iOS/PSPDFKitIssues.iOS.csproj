@@ -71,6 +71,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PDFViewerModalRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
@@ -147,7 +148,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\PSPDFKitIssues\PSPDFKitIssues.csproj">
-      <Project>{89B34B47-1039-4708-A71C-9EAC308EA093}</Project>
+      <Project>{6CBE5559-0098-48F6-A2BE-BBC2AEF36A6D}</Project>
       <Name>PSPDFKitIssues</Name>
     </ProjectReference>
   </ItemGroup>
